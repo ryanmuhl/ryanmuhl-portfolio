@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header {
+    padding: 20px 35px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../images/headerbackground.jpg");
+    background-size: 250px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: sticky;
+    
+    
+}
+
+#header-text {
+    color: #1149E0;
+    text-decoration: underline;
+    
+}
+
+header div img {
+    height: 60px;
+    
+}
+
+.my-photo {
+    padding: 0px 300px 0px 0px;
+}
+
+header nav {
+    display: flex;
+}
+
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    
+  }
+
+header nav ul li a {
+    padding: 0px 30px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: #1149E0;
+  }
