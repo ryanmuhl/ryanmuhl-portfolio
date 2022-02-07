@@ -121,13 +121,15 @@ header nav ul li a {
     justify-content: space-between;
     row-gap: 20px;
     column-gap: 20px;
-    width: 50%;
+    width: 75%;
     
 }
 
 .comming-soon {
-    width: 100%;
+
+    max-width: 100%;
     border: 3px solid red;
+    
 }
 
 .run-buddy {
