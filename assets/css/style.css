@@ -84,7 +84,6 @@ header nav ul li a {
 .about-me h2 {
     border-right: 5px solid #1149E0;
     padding-right: 20px;
-    padding-top: 30px;
 }
 
 .about-info {
@@ -111,7 +110,7 @@ header nav ul li a {
 .my-work h2 {
     border-right: 5px solid #1149E0;
     padding-right: 29px;
-    padding-top: 400px;
+    
     
 }
 
@@ -139,4 +138,18 @@ header nav ul li a {
 .horiseon {
     width: 48%;
     border: 3px solid red;
+}
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    margin-top: 20px;
+    margin: 10px 30px 50px 80px;
+}
+
+footer h2 {
+    border-right: 5px solid #1149E0;
+    padding-right: 20px;
 }
