@@ -118,27 +118,26 @@ header nav ul li a {
 .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     row-gap: 20px;
     column-gap: 20px;
-    width: 50%;
+    width: 85%;
     
 }
 
 .comming-soon {
-
     max-width: 100%;
     border: 3px solid red;
     
 }
 
 .run-buddy {
-    max-width: 48%;
+    max-width: 47%;
     border: 3px solid red;
     
 }
 
 .horiseon {
-    width: 48%;
+    width: 46%;
     border: 3px solid red;
 }
