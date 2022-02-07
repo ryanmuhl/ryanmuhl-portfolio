@@ -121,7 +121,7 @@ header nav ul li a {
     justify-content: space-around;
     row-gap: 20px;
     column-gap: 20px;
-    width: 85%;
+    max-width: 85%;
     
 }
 
@@ -132,12 +132,12 @@ header nav ul li a {
 }
 
 .run-buddy {
-    max-width: 47%;
+    max-width: 48%;
     border: 3px solid red;
     
 }
 
 .horiseon {
-    width: 46%;
+    width: 48%;
     border: 3px solid red;
 }
