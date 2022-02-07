@@ -26,7 +26,7 @@ header {
     background-size: 250px 150px;
     background-position: center;
     background-repeat: no-repeat;
-    position: sticky;
+
     
     
     
@@ -121,7 +121,7 @@ header nav ul li a {
     justify-content: space-between;
     row-gap: 20px;
     column-gap: 20px;
-    width: 75%;
+    width: 50%;
     
 }
 
