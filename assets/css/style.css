@@ -84,6 +84,7 @@ header nav ul li a {
 .about-me h2 {
     border-right: 5px solid #1149E0;
     padding-right: 20px;
+    padding-top: 30px;
 }
 
 .about-info {
@@ -104,11 +105,13 @@ header nav ul li a {
     column-gap: 50px;
     margin: 20px 20px 20px 100px;
     
+    
 }
 
 .my-work h2 {
     border-right: 5px solid #1149E0;
     padding-right: 29px;
+    padding-top: 400px;
     
 }
 
