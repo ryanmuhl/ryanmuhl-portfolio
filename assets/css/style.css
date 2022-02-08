@@ -10,7 +10,7 @@
 body {
     color: #1149E0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #c5d4d4;
     
 }  
 
@@ -26,10 +26,6 @@ header {
     background-size: 250px 150px;
     background-position: center;
     background-repeat: no-repeat;
-
-    
-    
-    
 }
 
 header h1 {
@@ -68,8 +64,13 @@ header nav ul li a {
 .hero {
     padding: 20px 35px;
     background-image: url("../images/hero-image.jpg");
-    height: 400px;
-
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-position: 80%;
 }
 
 /* Start About Section */
@@ -79,6 +80,7 @@ header nav ul li a {
     column-gap: 50px;
     margin-top: 20px;
     margin: 20px 20px 20px 100px;
+    max-width: 1245px;
 }
 
 .about-me h2 {
@@ -124,20 +126,20 @@ header nav ul li a {
 }
 
 .comming-soon {
-    border: 3px solid red;
+    border: 3px solid #89c3c3;
     
     
 }
 
 .run-buddy {
     max-width: 50%;
-    border: 3px solid red;
+    border: 3px solid #89c3c3;
     
 }
 
 .horiseon {
     width: 48%;
-    border: 3px solid red;
+    border: 3px solid #89c3c3;
 }
 
 
