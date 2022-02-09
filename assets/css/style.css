@@ -128,22 +128,20 @@ header nav ul li a {
 
 .comming-soon {
     border: 3px solid #1149E0;
-    width: 75%;
+    width: 100%;
     
 
 }
 
 .run-buddy {
-    max-width: 38%;
-    max-height: 100%;
+    max-width: 49%;
     border: 3px solid #1149E0;
     
 }
 
 .horiseon {
-    max-width: 35%;
+    max-width: 49%;
     border: 3px solid #1149E0;
-    max-height: 100%;
 }
 
 footer {
@@ -161,7 +159,28 @@ footer h2 {
 }
 
 footer div {
+    margin: 7px 0;
+}
+
+footer div ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
+    list-style: none;
 }
+
+footer div ul a{
+    padding: 0px 50px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+    color: #1149E0;
+    text-decoration: underline;
+
+}
+
+
+
+
+
