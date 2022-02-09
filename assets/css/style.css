@@ -80,7 +80,7 @@ header nav ul li a {
     column-gap: 50px;
     margin-top: 20px;
     margin: 20px 20px 20px 100px;
-    max-width: 1245px;
+    max-width: 1242px;
 }
 
 .about-me h2 {
@@ -94,9 +94,7 @@ header nav ul li a {
     width: 85%;
 }
 
-.about-info p{
-    justify-content: flex-start;
-}
+
 
 
 
@@ -107,41 +105,46 @@ header nav ul li a {
     margin: 20px 20px 20px 100px;
     
     
+    
 }
 
 .my-work h2 {
     border-right: 5px solid #1149E0;
     padding-right: 29px;
+    justify-content: space-between;
     
     
 }
 
-.projects {
+.pictures {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     row-gap: 20px;
-    max-width: 1030px;
+    column-gap: 20px;
+    max-width: 1031px;
+   
     
 }
 
 .comming-soon {
-    border: 3px solid #89c3c3;
+    border: 3px solid #1149E0;
+    width: 75%;
     
-    
+
 }
 
 .run-buddy {
-    max-width: 50%;
-    border: 3px solid #89c3c3;
+    max-width: 38%;
+    max-height: 100%;
+    border: 3px solid #1149E0;
     
 }
 
 .horiseon {
-    width: 48%;
-    border: 3px solid #89c3c3;
+    max-width: 35%;
+    border: 3px solid #1149E0;
+    max-height: 100%;
 }
-
 
 footer {
     display: flex;
@@ -154,4 +157,11 @@ footer {
 footer h2 {
     border-right: 5px solid #1149E0;
     padding-right: 20px;
+    
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
