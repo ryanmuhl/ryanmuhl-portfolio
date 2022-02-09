@@ -111,7 +111,7 @@ header nav ul li a {
 .my-work h2 {
     border-right: 5px solid #1149E0;
     padding-right: 29px;
-    justify-content: space-between;
+    
     
     
 }
@@ -119,18 +119,23 @@ header nav ul li a {
 .pictures {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     row-gap: 20px;
     column-gap: 20px;
     max-width: 1031px;
-   
-    
 }
+
+.flex-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
+
 
 .comming-soon {
     border: 3px solid #1149E0;
     width: 100%;
-    
-
 }
 
 .run-buddy {
@@ -165,13 +170,12 @@ footer div {
 footer div ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
 
 footer div ul a{
-    padding: 0px 50px;
+    padding: 0px 45px;
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: none;
