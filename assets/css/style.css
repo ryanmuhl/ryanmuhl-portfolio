@@ -198,6 +198,9 @@ footer div ul a{
 /*Start Media Query*/
 
 
+
+
+
 @media screen and (max-width: 980px) {
    header {
        padding-bottom: 0;
@@ -231,7 +234,7 @@ footer div ul a{
     .about-me h2 {
         border-bottom: 5px solid var(--primary-color);
         border-right: 0;
-        padding: 0 0 5px;
+        padding: 0 0 5px 0px;
     }
 
     .about-info {
