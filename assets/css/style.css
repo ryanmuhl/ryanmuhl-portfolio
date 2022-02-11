@@ -160,10 +160,6 @@ nav ul li a:hover{
     border: 5px solid var(--primary-color);
 }
 
-.flex-pictures h3 {
-    align-items: ;
-}
-
 
 a img:hover{
     opacity: .6;
