@@ -55,8 +55,14 @@ header nav ul li a {
     font-size: 1.55vw;
     text-decoration: none;
     color: #1149E0;
-    
-  }
+}
+
+nav ul li a:hover{
+    color: black;
+    border-radius: 10%;
+    background-color: red;
+}
+
 /* End Header */
 
 /* Start Hero Section */
@@ -67,11 +73,22 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-items: flex-start;
     background-position: 80%;
+    
 }
+
+.hero img {
+    width: 50%;
+}
+
+#avatar {
+    border-radius: 100px;
+}
+
+
 
 /* Start About Section */
 .about-me {
@@ -133,6 +150,8 @@ header nav ul li a {
 }
 
 
+
+
 .comming-soon {
     border: 3px solid #1149E0;
     width: 100%;
@@ -141,6 +160,7 @@ header nav ul li a {
 .run-buddy {
     max-width: 49%;
     border: 3px solid #1149E0;
+   
     
 }
 
@@ -148,6 +168,10 @@ header nav ul li a {
     max-width: 49%;
     border: 3px solid #1149E0;
 }
+
+
+
+
 
 footer {
     display: flex;
