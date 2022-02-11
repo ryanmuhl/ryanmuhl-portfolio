@@ -140,10 +140,15 @@ nav ul li a:hover{
     align-items:flex-end;
 }
 
+.flex-pictures2 div h4 {
+    position: absolute;
+}
+
 .comming-soon {
     border: 5px solid var(--primary-color);
     width: 100%;
 }
+
 
 .run-buddy {
     max-width: 49%;
@@ -154,6 +159,11 @@ nav ul li a:hover{
     max-width: 49%;
     border: 5px solid var(--primary-color);
 }
+
+.flex-pictures h3 {
+    align-items: ;
+}
+
 
 a img:hover{
     opacity: .6;
