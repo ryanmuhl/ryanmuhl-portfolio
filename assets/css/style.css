@@ -4,19 +4,20 @@
     padding: 0;
     box-sizing: border-box;
   }
-/* Universal Selector End*/
+/* Universal Selector End */
 
+/* Start Pseudo Class */
 :root{
 --primary-color: #1149E0;
 --background-color: #000000;
 }
+/* End Pseudo Class */
 
 /* Start Body */
 body {
     color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
     background-color: #c5d4d4;
-    
 }  
 
 /* Start Header */
@@ -37,8 +38,6 @@ header h1 {
     color: var(--primary-color);
     text-decoration: underline;
     margin: 0;
-    
-    
 }
 
 header nav {
@@ -51,8 +50,7 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    
-  }
+}
 
 header nav ul li a {
     padding: 0px 30px;
@@ -70,7 +68,6 @@ nav ul li a:hover{
 /* End Header */
 
 /* Start Hero Section */
-
 .hero {
     padding: 20px 35px;
     background-image: url("../images/hero-image.jpg");
@@ -81,7 +78,6 @@ nav ul li a:hover{
     flex-wrap: wrap;
     align-items: flex-start;
     background-position: 80%;
-    
 }
 
 .hero img {
@@ -92,7 +88,6 @@ nav ul li a:hover{
     border-radius: 100px;
 }
 /* End Hero Section*/
-
 
 /* Start About Section */
 .about-me {
@@ -114,25 +109,19 @@ nav ul li a:hover{
     flex-wrap: wrap;
     width: 85%;
 }
-/*End About Me Section*/
+/* End About Section */
 
-/*Start My Work Section*/
+/* Start My Work Section */
 .my-work {
     display: flex;
     flex-wrap: wrap;
     column-gap: 50px;
     margin: 20px 20px 20px 100px;
-    
-    
-    
 }
 
 .my-work h2 {
     border-right: 5px solid var(--primary-color);
     padding-right: 29px;
-    
-    
-    
 }
 
 .pictures {
@@ -151,9 +140,6 @@ nav ul li a:hover{
     align-items:flex-end;
 }
 
-
-
-
 .comming-soon {
     border: 5px solid var(--primary-color);
     width: 100%;
@@ -162,8 +148,6 @@ nav ul li a:hover{
 .run-buddy {
     max-width: 49%;
     border: 5px solid var(--primary-color);
-   
-    
 }
 
 .horiseon {
@@ -190,7 +174,6 @@ footer {
 footer h2 {
     border-right: 5px solid var(--primary-color);
     padding-right: 20px;
-    
 }
 
 footer div {
@@ -211,10 +194,108 @@ footer div ul a{
     text-decoration: none;
     color: var(--primary-color);
     text-decoration: underline;
-
 }
 /* End footer Section*/
+
+/* End Body */
 
 /*Start Media Query*/
 
 
+@media screen and (max-width: 980px) {
+   header {
+       padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin-top: 20px;
+        width:100%;
+        justify-content: center;
+      }
+
+      header nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero {
+        justify-content: center;
+        padding-left: 150px;
+    }
+
+    .about-me {
+        justify-content: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .about-me h2 {
+        border-bottom: 5px solid var(--primary-color);
+        border-right: 0;
+        padding: 0 0 5px;
+    }
+
+    .about-info {
+        padding-top: 20px;
+    }
+    
+    .my-work {
+        justify-content: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .my-work h2 {
+        border-bottom: 5px solid var(--primary-color);
+        border-right:0;
+        padding: 0 0 5px;
+    }
+
+    .pictures {
+        padding-top: 20px;
+    }
+
+    footer {
+        justify-content: center;
+        
+    }
+
+    footer h2 {
+    border-bottom: 5px solid var(--primary-color);
+    border-right: 0;
+    padding: 0 0 5px;
+    }
+
+    .contact-data {
+        padding-top: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+   
+    footer div ul a {
+    padding: 0px 30px;
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: none;
+    color: var(--primary-color);
+    text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    footer div ul a {
+        padding: 0px 10px;
+        font-weight: lighter;
+        font-size: 15px;
+        text-decoration: none;
+        color: var(--primary-color);
+        text-decoration: underline;
+        }
+
+}
