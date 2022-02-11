@@ -176,21 +176,17 @@ footer h2 {
     padding-right: 20px;
 }
 
-footer div {
-    margin: 7px 0;
-}
 
 footer div ul {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     list-style: none;
 }
 
 footer div ul a{
     padding: 0px 45px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 1.5vw;
     text-decoration: none;
     color: var(--primary-color);
     text-decoration: underline;
@@ -241,6 +237,10 @@ footer div ul a{
     .about-info {
         padding-top: 20px;
     }
+
+    .about-info p {
+        text-align: center;
+    }
     
     .my-work {
         justify-content: center;
@@ -268,10 +268,24 @@ footer div ul a{
     padding: 0 0 5px;
     }
 
-    .contact-data {
+    footer div ul a {
+        font-size: 20px;
+    }
+
+    .contact-data ul{
+        display: flex;
+        flex-wrap: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+   .contact-data {
         padding-top: 20px;
     }
-    
+
+    .contact-data ul li {
+        padding-bottom: 10px;
+    }
 }
 
 
@@ -280,10 +294,14 @@ footer div ul a{
     footer div ul a {
     padding: 0px 30px;
     font-weight: lighter;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
     color: var(--primary-color);
     text-decoration: underline;
+    }
+
+    .contact-data ul li {
+        padding-bottom: 10px;
     }
 }
 
@@ -292,10 +310,13 @@ footer div ul a{
     footer div ul a {
         padding: 0px 10px;
         font-weight: lighter;
-        font-size: 15px;
+        font-size: 20px;
         text-decoration: none;
         color: var(--primary-color);
         text-decoration: underline;
         }
+    .contact-data ul li {
+        padding-bottom: 10px;
+    }
 
 }
