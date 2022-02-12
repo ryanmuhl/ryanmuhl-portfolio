@@ -208,7 +208,7 @@ footer div ul a{
 
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1062px) {
    header {
        padding-bottom: 0;
         justify-content: center;
@@ -268,8 +268,9 @@ footer div ul a{
     }
 
     footer {
+        margin: 20px 20px 20px 20px;
         justify-content: center;
-        padding-right: 30px;
+        
     }
 
     footer h2 {
@@ -279,27 +280,27 @@ footer div ul a{
     }
 
     footer div ul a {
-        font-size: 0px;
+        font-size: 20px;
     }
 
+
     .contact-data ul{
-        display: flex;
-        flex-wrap: flex;
         justify-content: center;
         text-align: center;
+        
     }
 
    .contact-data {
         padding-top: 20px;
     }
 
-    .contact-data ul li {
-        padding-bottom: 10px;
-    }
+
+
+  
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 967px) {
    
     footer div ul a {
     padding: 0px 30px;
