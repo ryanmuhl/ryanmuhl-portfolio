@@ -58,6 +58,7 @@ header nav ul li a {
     font-size: 1.55vw;
     text-decoration: none;
     color: var(--primary-color);
+    transition: all .3s ease-in-out;
 }
 
 nav ul li a:hover{
@@ -116,6 +117,7 @@ nav ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     column-gap: 50px;
+    row-gap: 50px;
     margin: 20px 20px 20px 100px;
 }
 
@@ -127,43 +129,60 @@ nav ul li a:hover{
 .pictures {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    width: 1000px;
+    height: 800px;
     row-gap: 20px;
     column-gap: 20px;
-    max-width: 1031px;
 }
 
-.flex-pictures {
-    display: flex;
-    flex-wrap: wrap;
-    align-items:flex-end;
-}
-
-.flex-pictures2 div h4 {
-    position: absolute;
-}
-
-.comming-soon {
-    border: 5px solid var(--primary-color);
-    width: 100%;
-}
-
-
-.run-buddy {
-    max-width: 49%;
+.background1 {
+    background-image: url("../images/Project-soon.jpg");
+    width:100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 5px solid var(--primary-color);
 }
 
-.horiseon {
-    max-width: 49%;
+.background2 {
+    background-image: url("../images/run-buddy.jpg");
+    background-size: auto;
+    width: 49%;
+    background-size:cover;
+    background-repeat: no-repeat;
     border: 5px solid var(--primary-color);
 }
 
+.background3 {
+    background-image: url("../images/Horiseon.jpg");
+    width: 49%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 5px solid var(--primary-color);
+    }
 
-a img:hover{
+.title {
+    background-color: grey;
+    width: 25%;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 300px;
+}
+
+.background1:hover{
     opacity: .6;
+    transition: all .3s ease-in-out;
   }
+
+.background2:hover{
+    opacity: .6;
+    transition: all .3s ease-in-out;
+    }   
+
+.background3:hover{
+    opacity: .6;
+    transition: all .3s ease-in-out;
+}
 /* End My Work Section */
 
 
@@ -204,15 +223,99 @@ footer div ul a{
 
 /*Start Media Query*/
 
+@media screen and (max-width: 1280px) {
+
+.about-me {
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 20px 0px;
+    
+}
+
+.about-me h2 {
+    border-bottom: 5px solid var(--primary-color);
+    border-right: 0;
+    padding: 0 0 5px 0px;
+    text-align: center;
+}
+
+.about-info {
+    padding-top: 20px;
+}
+
+.about-info p {
+    text-align: center;
+}
+
+.my-work {
+    row-gap: 5px;
+    margin: 10px 20px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-work h2 {
+    border-bottom: 5px solid var(--primary-color);
+    border-right:0;
+    text-align: center;
+    padding: 0 5px 5px 0px;
+
+}
+
+.pictures {
+    padding-top: 20px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 20px 8px;
+    
+}
+
+footer h2 {
+    border-bottom: 5px solid var(--primary-color);
+    padding-right: 30px;
+    border-right: 0px;
+    padding: 0px 0px 0px 0px;
+    justify-content: center;
+    flex: center;
+}
+
+
+footer div ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-top: 20px;
+}
+
+footer div ul a{
+    padding: 0px 45px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: var(--primary-color);
+    text-decoration: underline;
+}
 
 
 
+}
 
-@media screen and (max-width: 1062px) {
+
+
+@media screen and (max-width: 1024px) {
    header {
-       padding-bottom: 0;
+        padding-bottom: 0;
         justify-content: center;
-        position: relative;
+        
     }
     header h1 {
         width: 100%;
@@ -235,17 +338,19 @@ footer div ul a{
 
     .about-me {
         justify-content: center;
-        margin: 20px 20px 20px 20px;
+        align-items: center;
+        flex: center;
     }
 
     .about-me h2 {
         border-bottom: 5px solid var(--primary-color);
         border-right: 0;
         padding: 0 0 5px 0px;
+        text-align: center;
     }
 
-    .about-info {
-        padding-top: 20px;
+    .about-info p {
+        text-align: center;
     }
 
     .about-info p {
@@ -253,30 +358,44 @@ footer div ul a{
     }
     
     .my-work {
-        justify-content: center;
-        margin: 20px 20px 20px 20px;
+        row-gap: 5px;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: 20px 30px 20px 20px;
     }
 
     .my-work h2 {
         border-bottom: 5px solid var(--primary-color);
         border-right:0;
         padding: 0 0 5px;
+        text-align: center;
+        padding: 0 5px 5px 0px;
     }
+
+    .title {
+        width: 60%;
+    }
+
 
     .pictures {
         padding-top: 20px;
+        justify-content: center;
+        height: auto;
     }
 
     footer {
-        margin: 20px 20px 20px 20px;
+        margin: 20px 8px 20px 20px;
         justify-content: center;
+        text-align: center;
+        align-items: center;
         
     }
 
     footer h2 {
-    border-bottom: 5px solid var(--primary-color);
-    border-right: 0;
-    padding: 0 0 5px;
+        border-bottom: 5px solid var(--primary-color);
+        border-right: 0;
+        padding: 0 0 5px;
     }
 
     footer div ul a {
@@ -290,33 +409,100 @@ footer div ul a{
         
     }
 
-   .contact-data {
-        padding-top: 20px;
-    }
-
-
-
-  
 }
 
 
-@media screen and (max-width: 967px) {
-   
+@media screen and (max-width: 767px) {
+    .my-work {
+        row-gap: 5px;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: 20px 20px 20px 20px;
+    }
+
+    .my-work h2 {
+        border-bottom: 5px solid var(--primary-color);
+        border-right:0;
+        text-align: center;
+        padding: 0 0 5px;
+    }
+
+    .pictures {
+        align-items: center;
+        height: auto;
+    }
+
+    
+
+    .title {
+        width: 60%;
+    }
+    
+    
+    footer {
+        
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    footer h2 {
+        border-bottom: 5px solid var(--primary-color);
+        padding-right: 30px;
+        border-right: 0px;
+        padding: 0px 0px 0px 0px;
+        justify-content: center;
+        flex: center;
+    }
+
+    footer div ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding-top: 20px;
+    }
+    
     footer div ul a {
-    padding: 0px 30px;
-    font-weight: lighter;
-    font-size: 20px;
-    text-decoration: none;
-    color: var(--primary-color);
-    text-decoration: underline;
+        padding: 0px 30px;
+        font-weight: lighter;
+        font-size: 20px;
+        text-decoration: none;
+        color: var(--primary-color);
+        text-decoration: underline;
     }
 
     .contact-data ul li {
         padding-bottom: 10px;
     }
+
+    
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 480px) {
+    .my-work {
+        row-gap: 5px;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: 20px 20px 20px 20px;
+    }
+    .my-work h2 {
+        border-bottom: 5px solid var(--primary-color);
+        border-right:0;
+        padding: 0 0 5px;
+    }
+
+    .title {
+        width: 60%;
+    }
+   
+    footer {
+       
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
 
     footer div ul a {
         padding: 0px 10px;
@@ -328,6 +514,10 @@ footer div ul a{
         }
     .contact-data ul li {
         padding-bottom: 10px;
+    }
+
+    .title {
+        width: 60%;
     }
 
 }
