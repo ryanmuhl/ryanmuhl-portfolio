@@ -224,7 +224,6 @@ footer div ul a{
 /*Start Media Query*/
 
 @media screen and (max-width: 1280px) {
-
 .about-me {
     justify-content: flex-end;
     flex-direction: column;
