@@ -29,7 +29,7 @@ https://ryanmuhl.github.io/ryanmuhl-portfolio/
 https://github.com/ryanmuhl/ryanmuhl-portfolio
 
 ## Screenshot
-![Challenge Screenshot](https://github.com/ryanmuhl/ryanmuhl-portfolio/tree/main/assets/images/Screenshot.PNG)
+![Challenge Screenshot](https://github.com/ryanmuhl/ryanmuhl-portfolio/Blob/tree/main/assets/images/Screenshot.PNG)
 
 ## Contribution
 Created/Designed by Ryan M. Uhl
