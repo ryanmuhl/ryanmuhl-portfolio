@@ -29,7 +29,7 @@ https://ryanmuhl.github.io/ryanmuhl-portfolio/
 https://github.com/ryanmuhl/ryanmuhl-portfolio
 
 ## Screenshot
-![Challenge Screenshot](https://github.com/ryanmuhl/urban-octo-telegram/blob/main/assets/images/challenge-picture.PNG)
+![Challenge Screenshot](https://github.com/ryanmuhl/ryanmuhl-portfolio/blob/main/assets/images/challenge-picture.PNG)
 
 ## Contribution
 Created/Designed by Ryan M. Uhl
